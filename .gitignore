@@ -1,0 +1,36 @@
+# Entorno virtual
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Salidas generadas (PDF y HTML de depuración)
+*.pdf
+*.html
+!templates/*.html
+
+# Datos personales reales — usa data.example.yaml como plantilla:
+#   cp data.example.yaml data.yaml
+# y edita data.yaml con tu información. data.yaml nunca se sube.
+data.yaml
+data_*.yaml
+!data.example.yaml
+!data_*.example.yaml
+
+# Datos personales de ejemplo con foto real (opcional, descomenta si no quieres
+# subir tu foto al repo)
+# img/*.jpg
+# img/*.png
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/

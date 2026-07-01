@@ -1,0 +1,81 @@
+# =========================================================
+# DATOS DEL CV
+# Edita este archivo cada vez que quieras actualizar tu CV.
+# No necesitas tocar el HTML ni el Python.
+# =========================================================
+
+personal:
+  nombre: "[Tu Nombre] [Tu Apellido]"
+  titulo: ""
+  ubicacion: "Ciudad de Guatemala, Guatemala"
+  telefono: "+502 0000 0000"
+  email: "tu.correo@ejemplo.com"
+  linkedin: "linkedin.com/in/tu-usuario"
+  github: "github.com/tu-usuario"
+  # web: "tuportafolio.dev"   # opcional, descomenta si aplica
+  # foto: "img/foto.jpg"      # opcional: ruta relativa a este archivo YAML, o coméntala para no mostrar foto
+
+resumen: >
+  Descripcion de lo que haces.
+
+experiencia:
+  - puesto: " Tu puesto"
+    empresa: "Nombre de la Empresa"
+    ubicacion: "Guatemala"
+    fecha_inicio: "2023"
+    fecha_fin: "Presente"
+    logros:
+      - "Logro #1"
+      - "Logro #2"
+      - "Logro #3"
+      - "Logro #4"
+
+  - puesto: "Puesto anterior"
+    empresa: "Empresa anterior"
+    ubicacion: "Guatemala"
+    fecha_inicio: "2021"
+    fecha_fin: "2023"
+    logros:
+      - "Describe aquí un logro medible (ej: 'Reduje el tiempo de procesamiento de X en 30%')."
+      - "Otro logro relevante."
+
+educacion:
+  - titulo: "Ingeniería en Sistemas / Licenciatura"
+    institucion: "Tu universidad"
+    fecha_inicio: "2022"
+    fecha_fin: "En curso"
+    detalle: "Cursos destacados: Bases de Datos, Sistemas Operativos, Arquitectura de Computadoras, Análisis de Sistemas."
+
+habilidades_tecnicas:
+  - categoria: "Lenguajes y Bases de Datos"
+    items: ["Python", "SQL Server", "PostgreSQL", "Oracle 21c", "MongoDB"]
+  - categoria: "Infraestructura y Sistemas"
+    items: ["Linux (Debian)", "Docker/Podman", "VMware", "Windows Server"]
+  - categoria: "Herramientas"
+    items: ["Git", "Power BI", "SSIS/ETL", "C#", "C++"]
+
+habilidades_blandas:
+  - "Habilidad #1"
+  - "Habilidad #2"
+  - "Habilidad #3"
+  - "Habilidad #4"
+
+proyectos: []
+  # - nombre: "TechStore Guatemala — Base de Datos Distribuida"
+  #   descripcion: "Proyecto de base de datos distribuida integrando Oracle 21c XE, PostgreSQL 17 y SQL Server 2022 vía Python, con replicación, fragmentación horizontal/vertical y consultas distribuidas."
+  #   tecnologias: ["Oracle", "PostgreSQL", "SQL Server", "Python"]
+
+  # - nombre: "Sistema IoT de Dispensado de Agua"
+  #   descripcion: "Sistema IoT con ESP32, sensores de humedad y ultrasónico, comunicación MQTT y suscriptor en Python."
+  #   tecnologias: ["ESP32", "MQTT", "Wokwi", "Python"]
+
+idiomas:
+  - idioma: "Español"
+    nivel: "Nativo"
+  - idioma: "Inglés"
+    nivel: "Intermedio-Avanzado"
+
+certificaciones: []
+  # - nombre: "Nombre de certificación"
+  #   entidad: "Entidad emisora"
+  #   fecha: "2024"
